@@ -1,0 +1,96 @@
+body{
+    background-color:#dfe4e9;
+}
+.nav-item{
+    margin:0px 15px;
+    
+}
+.nav-item:hover{
+    transition: background-color 0.5s ease-in 0s;
+    background-color:palevioletred;
+}
+#navbarSearch{
+    width: 750px;
+}
+#navbarButtons{
+    margin: 0px 0px 0px 10px;
+}
+.container{
+    position:absolute;
+    top:15%;
+    left:35%;
+    width:500px;
+    height:600px;
+}
+.container img{
+    position:absolute;
+    left:220px;
+    top:7%;
+}
+.buttonGroup{
+    position:absolute;
+    left:20%;
+    top:20%;
+}
+.buttons{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width:270px;
+    height:35px;
+    margin:10px;
+}
+#loginGoogle{
+    background-color:rgb(235, 235, 235);
+    color:rgb(22, 22, 22);
+}
+#loginGoogle:hover{
+    transition: background-color 0.5s ease-in 0s;
+    background-color:white;
+    color:black;
+}
+#loginGithub{
+    background-color:black;
+    color: white;
+}
+#loginGithub:hover{
+    transition: background-color 0.5s ease-in 0s;
+    background-color:rgb(28, 28, 28);
+    color: white;
+    transition:
+}
+#loginFacebook{
+    background-color:#385499;
+    color:#fff;
+}
+#loginFacebook:hover{
+    transition: background-color 0.5s ease-in 0s;
+    background-color:rgb(63, 89, 155);
+    color:#fff;
+}
+.loginForm{
+    height:40%;
+    width:270px;
+    position:absolute;
+    left:20%;
+    top:50%;    
+    background-color:white;
+    border:1px solid transparent;
+    border-radius: 5px;
+    margin:10px;
+    
+}
+.loginFBox{
+    margin:20px;
+}
+.inputBox{
+    width: 220px;
+}
+#forgotPass{
+    margin-left: 47px;
+    color: rgb(52, 52, 231);
+    font-size: small;
+}
+#loginButton{
+    margin-left: 25px;
+    width:220px;
+}
