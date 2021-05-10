@@ -56,7 +56,6 @@ body{
     transition: background-color 0.5s ease-in 0s;
     background-color:rgb(28, 28, 28);
     color: white;
-    transition:
 }
 #loginFacebook{
     background-color:#385499;
